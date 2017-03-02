@@ -1,0 +1,15 @@
+{
+  "name": "test-callback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | tap-spec"
+  },
+  "author": "Joshua Vial <joshua@enspiral.com> (http://joshuavial.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
